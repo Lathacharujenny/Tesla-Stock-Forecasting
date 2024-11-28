@@ -1,5 +1,5 @@
 # Tesla Stock Prediction using LSTM
-
+<img src="Image/image.webp" alt="Tesla-Stock-Forecasting" title="Tesla-Stock-Forecasting" width="600" height="400">
 ## Project Overview
 This project aims to predict Tesla's stock prices using Long Short-Term Memory (LSTM) networks, a type of Recurrent Neural Network (RNN) designed for sequence prediction tasks. The model is trained on historical stock price data and can be used to predict future stock prices.
 
@@ -29,8 +29,9 @@ The dataset used for this project contains historical stock prices for Tesla, in
 
 ## Steps for Running the Project
 
-### 1. Clone the Repository
-Clone this repository to your local machine:
-```bash
-git clone https://github.com/yourusername/tesla-stock-prediction.git
-cd tesla-stock-prediction
+## Results
+The model predicts Tesla's stock price with a reasonable degree of accuracy. The results can be visualized with graphs showing the predicted vs. actual stock prices.
+<img src="Image/output.png" alt="Tesla-Stock-Forecasting" title="Tesla-Stock-Forecasting" width="600" height="400">
+
+## Conclusion
+This project demonstrates how to use LSTM networks for time-series forecasting, specifically for stock price prediction. Further improvements can include hyperparameter tuning, incorporating additional features, and exploring other deep learning models.
